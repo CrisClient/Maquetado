@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-    color: hotpink;
+    color: black;
 }
 
 .div__block-examples > * {
@@ -11,24 +11,55 @@ h1{
     height: 90px;
     border: solid 1px black;
     margin: 10px;
+    text-align: center;
+}
+
+.div__block-examples {
+    height: 950vh;
 }
 
 .div__static--yellow {
     background-color: yellow;
+    position: static;
 }
 
 .div__relative--hotpink {
     background-color: hotpink;
+    position: relative;
+    top: 40px;
+    left: 40px;
 }
 
 .div__fixed--blue {
     background-color: blue;
+    position: fixed;
+    top: 10px;
+    left: 40px;
 }
 
 .div__absolute--red { 
     background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 40px;
 }
 
 .div__sticky--peru {
     background-color: peru;
+    position: sticky;
+    top: 20px;
+}
+
+.img__z-index {
+    position: absolute;
+    z-index: -2;
+}
+
+.p__z-index--white {
+    color: white;
+}
+
+.button__z-index {
+    position: absolute;
+    z-index: -1;
 }
