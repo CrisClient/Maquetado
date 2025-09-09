@@ -76,3 +76,69 @@ h1 {
 .button__ease-out--yellow:hover {
     width: 240px;
 }
+
+
+/* 0 --> 599px */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+/* 600px --> 768px */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(224, 64, 64);
+    }
+}
+
+/* 768px --> 991px */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+}
+
+/* 992px --> 1199px */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: hotpink;
+    }
+}
+
+/* 1200px --> ... */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* body {
+    background-color: black;
+} */
+
+.div__card--border-black {
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: hotpink;
+}
+
+@media only screen and (max-width: 600px) {
+    .div__card--border-black {
+        display: none;
+    }
+    .button__key-frames--hotpink {
+        width: 90px;
+        height: 60px;
+        font-size: 8px;
+        color: beige;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .div__card--border-black {
+        background-color: purple;
+    }
+}
