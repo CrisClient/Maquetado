@@ -15,3 +15,6 @@ Clase 5
 
 Clase 6
  En esta clase vimos los diferentes tipos de flex box, wrap y justify content /// Clase del 30 de agosto del 2022 ///
+
+Clase 7
+ En esta clase conocimos SCSS, pudimos hacer variables y tambien pudimos ver como funciona @mixin /// Clase del 31 de agosto del 2022 ///
